@@ -33,7 +33,7 @@ with col1 :
   st.write("**Ainsi nous constatons une augmentation des températures bien plus élevée dans la zone Nord du globe, là où l'activité humaine et industrielle y sont les plus importantes.**")
 
 with col2:
-  st.image("/content/drive/MyDrive/Colab_Notebooks/NOV23-CDA-TEMP_TERRESTRE/Streamlit/Image2.jpg")
+  st.image("Image2.jpg")
 
 st.subheader("Prise de recul sur les résultats")
 text5 = '''
