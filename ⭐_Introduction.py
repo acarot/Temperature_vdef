@@ -2,20 +2,14 @@ import streamlit as st
 import pandas as pd
 
 #Import des DataFrames
-#Version VsCode
-#st.session_state.df_ZonAnn = pd.read_csv("ZonAnn.Ts+dSST.csv")
-#st.session_state.df_GLB = pd.read_csv("GLB.Ts+dSST.csv", skiprows=1)
-#st.session_state.df_NH = pd.read_csv("NH.Ts+dSST.csv", skiprows = 1)
-#st.session_state.df_SH = pd.read_csv("SH.Ts+dSST.csv", skiprows = 1)
-#st.session_state.df_owid = pd.read_csv("owid-co2-data.csv")
-#st.session_state.df_long_lat = pd.read_csv("longitude-latitude.csv")'''
+
 #Version Collab
-st.session_state.df_ZonAnn = pd.read_csv("/content/drive/MyDrive/Colab_Notebooks/NOV23-CDA-TEMP_TERRESTRE/ZonAnn.Ts+dSST.csv")
-st.session_state.df_GLB = pd.read_csv("/content/drive/MyDrive/Colab_Notebooks/NOV23-CDA-TEMP_TERRESTRE/GLB.Ts+dSST.csv", skiprows=1)
-st.session_state.df_NH = pd.read_csv("/content/drive/MyDrive/Colab_Notebooks/NOV23-CDA-TEMP_TERRESTRE/NH.Ts+dSST.csv", skiprows = 1)
-st.session_state.df_SH = pd.read_csv("/content/drive/MyDrive/Colab_Notebooks/NOV23-CDA-TEMP_TERRESTRE/SH.Ts+dSST.csv", skiprows = 1)
-st.session_state.df_owid = pd.read_csv("/content/drive/MyDrive/Colab_Notebooks/NOV23-CDA-TEMP_TERRESTRE/owid-co2-data.csv")
-st.session_state.df_long_lat = pd.read_csv("/content/drive/MyDrive/Colab_Notebooks/NOV23-CDA-TEMP_TERRESTRE/longitude-latitude.csv")
+st.session_state.df_ZonAnn = pd.read_csv("ZonAnn.Ts+dSST.csv")
+st.session_state.df_GLB = pd.read_csv("GLB.Ts+dSST.csv", skiprows=1)
+st.session_state.df_NH = pd.read_csv("NH.Ts+dSST.csv", skiprows = 1)
+st.session_state.df_SH = pd.read_csv("SH.Ts+dSST.csv", skiprows = 1)
+st.session_state.df_owid = pd.read_csv("owid-co2-data.csv")
+st.session_state.df_long_lat = pd.read_csv("longitude-latitude.csv")
 
 st.set_page_config(
     page_title="Introduction",
