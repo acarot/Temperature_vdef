@@ -39,7 +39,7 @@ with col1:
   st.markdown("*La source de données est celle de la NASA. »*")
 
 with col2:
-  st.image("/content/drive/MyDrive/Colab_Notebooks/NOV23-CDA-TEMP_TERRESTRE/Streamlit/Image.jpg")
+  st.image("Image.jpg")
 
 st.write("## Présentation des participants")
 #st.markdown("**Alexandre CAROT**   *'Avoir évolué dans l’industrie automobile et le luxe m’ont fait réaliser que je n’étais pas en accord avec mes convictions profondes comme l’accord et le respect de son environnement. J’ai donc fait le choix de retrouver cet attrait pour la cause environnementale via le prisme de l’évolution des températures à travers cette reprise d’études dans la data analyse'*")
