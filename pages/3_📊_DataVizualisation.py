@@ -137,7 +137,7 @@ if radio == "Fusion bases de données":
       st.dataframe(longlat_cleaned.head())
     
     with col_img:
-      st.image("/content/drive/MyDrive/Colab_Notebooks/NOV23-CDA-TEMP_TERRESTRE/Streamlit/Image3.jpg")
+      st.image("Image3.jpg")
 
     st.write("**Notre dataframe longitude-latitude nécessite encore les opérations suivantes avant la fusion avec la base owid :**")
     st.markdown("- Suppression des lignes où le code ISO n'est pas renseigné")
