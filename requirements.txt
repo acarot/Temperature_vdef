@@ -6,6 +6,4 @@ numpy
 streamlit
 scikit_learn
 plotly.express
-prophet.plot
 plot_plotly
-mean_squared_error
