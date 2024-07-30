@@ -5,3 +5,4 @@ plotly
 numpy
 streamlit
 scikit_learn
+plotly.express
