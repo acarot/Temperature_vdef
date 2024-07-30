@@ -833,4 +833,4 @@ if radio == "Conclusion":
         st.write("Compte tenu du niveau de disponibilité des données très disparates, nous prenons ces observations comme des tendances à observer plutôt qu'une vérité immuable.")
         st.write("Mais nous pouvons au terme avoir une compréhension sur l'évolution des variables sur un espace temps comme dans l'animation ci-dessous :")
 
-        st.image("/content/drive/MyDrive/Colab_Notebooks/NOV23-CDA-TEMP_TERRESTRE/Flavien/Essais Streamlit/Streamlit/Evolution des températures globales par années.gif")
+        st.image("Evolution des températures globales par années.gif")
