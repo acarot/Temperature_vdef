@@ -6,4 +6,4 @@ numpy
 streamlit
 scikit_learn
 plotly.express
-plot_plotly
+prophet.plot
