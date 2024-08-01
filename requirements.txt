@@ -7,4 +7,4 @@ streamlit
 scikit_learn
 plotly.express
 Prophet
-pickle
+pickle-mixin
